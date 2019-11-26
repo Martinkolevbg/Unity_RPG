@@ -10,7 +10,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 1
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
@@ -26,9 +26,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aae8aa71439d754a92861eead3c17f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponRange: 2
+  weaponRange: 1.3
   timeBetweenAttacks: 1
   weaponDamage: 5
+--- !u!114 &1741087652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091979975227179725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 598c3709e50479b4da3c0d9bc4336773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1741087653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091979975227179725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d433ed0de81bf54f9dd97bb77ca1154, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8716429568844033659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40,6 +64,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PLayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633827657175887030, guid: 17658074985d33942b8a470154f986b3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7528366632952948052, guid: 17658074985d33942b8a470154f986b3,
         type: 3}
