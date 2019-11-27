@@ -138,4 +138,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 591d25d86f7122a41b72f019154c24b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helath: 100
+  helathPoints: 100
