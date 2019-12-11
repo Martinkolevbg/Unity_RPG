@@ -5,27 +5,26 @@ using RPG.Control;
 
 namespace RPG.Cinematics
 {
-    public class CinematicsControlRemover : MonoBehaviour 
+    public class CinematicControlRemover : MonoBehaviour
     {
         GameObject player;
 
-        private void Start() 
+        private void Start()
         {
             GetComponent<PlayableDirector>().played += DisableControl;
             GetComponent<PlayableDirector>().stopped += EnableControl;
-            GameObject player = GameObject.FindWithTag("Player");
+            player = GameObject.FindWithTag("Player");
         }
 
-        void DisableControl(PlayableDirector dummy)
+        void DisableControl(PlayableDirector pd)
         {
-           player.GetComponent<ActionScheduler>().CancelCurrentAction();
-           player.GetComponent<PlayerController>().enabled =false;
+            player.GetComponent<ActionScheduler>().CancelCurrentAction();
+            player.GetComponent<PlayerController>().enabled = false;
         }
 
-        void EnableControl(PlayableDirector dummy)
+        void EnableControl(PlayableDirector pd)
         {
             player.GetComponent<PlayerController>().enabled = true;
         }
-        
     }
 }
