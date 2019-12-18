@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 8633827657175887032}
   - component: {fileID: 8633827657175887033}
   - component: {fileID: 210176028792912567}
+  - component: {fileID: 770841712411681324}
   m_Layer: 0
-  m_Name: Charecter
+  m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85,6 +86,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  maxSpeed: 6
 --- !u!195 &8633827657175887032
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -139,3 +141,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   helathPoints: 100
+--- !u!114 &770841712411681324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8633827657175887030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea9374b509b70f4bba37e4a2ca8cf00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueIdentifier: 
