@@ -28403,6 +28403,11 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2674273924797139197, guid: eb13c62fb799a984e9277b385709f91c,
+        type: 3}
+      propertyPath: destination
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4466189260933074000, guid: eb13c62fb799a984e9277b385709f91c,
         type: 3}
       propertyPath: m_LocalPosition.y

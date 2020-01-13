@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Sandbox.unity
     guid: cc45222e08a0d86478884e945a075cc2
   - enabled: 1
-    path: Assets/Scenes/Sandbox2.unity
-    guid: c20fbb2ecaefe744d92b12c270c46025
-  - enabled: 1
     path: Assets/Scenes/BlueMoon.unity
     guid: 5d71fa9916d9ba042a1ae3a2acc0daac
+  - enabled: 1
+    path: Assets/Scenes/Castle.unity
+    guid: 7119cf2ddc050bd439718b667c561ed2
+  - enabled: 0
+    path: Assets/Scenes/Sandbox2.unity
+    guid: c20fbb2ecaefe744d92b12c270c46025
   m_configObjects: {}
