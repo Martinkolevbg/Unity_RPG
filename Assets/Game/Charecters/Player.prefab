@@ -50,12 +50,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aae8aa71439d754a92861eead3c17f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponRange: 1.3
   timeBetweenAttacks: 0.7
-  weaponDamage: 10
-  weaponPrefab: {fileID: 842325393150843547, guid: 6ff528dd00b77c049a192f28fb54c069,
-    type: 3}
   handTransform: {fileID: 196073649677350233}
+  defaultWeapon: {fileID: 0}
+--- !u!54 &1771582120608420899
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091979975227179725}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &196073649677270123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -204,7 +217,7 @@ PrefabInstance:
     - target: {fileID: 8633827657175887032, guid: 17658074985d33942b8a470154f986b3,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17658074985d33942b8a470154f986b3, type: 3}
