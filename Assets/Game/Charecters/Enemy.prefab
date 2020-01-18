@@ -69,7 +69,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 1
-  handTransform: {fileID: 3606816217557422541}
+  rightHandTransform: {fileID: 3606816217557422541}
+  leftHandTransform: {fileID: 3606816217557486075}
   defaultWeapon: {fileID: 11400000, guid: 4325aedd535cc98489b720901a352340, type: 2}
 --- !u!1001 &3606816217557892679
 PrefabInstance:
@@ -128,6 +129,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b8c3b6dee6c92d4bb9953c1bbede39b, type: 3}
+--- !u!4 &3606816217557486075 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 407484, guid: 3b8c3b6dee6c92d4bb9953c1bbede39b,
+    type: 3}
+  m_PrefabInstance: {fileID: 3606816217557892679}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3606816217557422541 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 470922, guid: 3b8c3b6dee6c92d4bb9953c1bbede39b,
@@ -211,6 +218,11 @@ PrefabInstance:
       propertyPath: helathPoints
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 8633827657175887033, guid: 17658074985d33942b8a470154f986b3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8633827657175887032, guid: 17658074985d33942b8a470154f986b3,
         type: 3}
       propertyPath: m_Speed
@@ -220,6 +232,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Acceleration
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633827657175887032, guid: 17658074985d33942b8a470154f986b3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17658074985d33942b8a470154f986b3, type: 3}
