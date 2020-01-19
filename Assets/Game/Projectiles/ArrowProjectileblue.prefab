@@ -69,7 +69,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.8
+  m_Time: 0.5
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.3
@@ -201,6 +201,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7f49c6920d49ba468b083941d79f2c0, type: 3}
+--- !u!1 &7479159732245412084 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1659504181823486, guid: c7f49c6920d49ba468b083941d79f2c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 7480115494216171274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8746889828309770437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -215,6 +221,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2773703529524776724, guid: 9ca489570a5a3a147b158d7da326fdcf,
         type: 3}
+      propertyPath: destroyOnHit.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773703529524776724, guid: 9ca489570a5a3a147b158d7da326fdcf,
+        type: 3}
       propertyPath: isHoming
       value: 0
       objectReference: {fileID: 0}
@@ -224,6 +235,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3301321237670037178, guid: 77ba56b2faf8a5449aac3136c5ebbc2b,
         type: 3}
+    - target: {fileID: 2773703529524776724, guid: 9ca489570a5a3a147b158d7da326fdcf,
+        type: 3}
+      propertyPath: destroyOnHit.Array.data[0]
+      value: 
+      objectReference: {fileID: 7479159732245412084}
     - target: {fileID: 8718544004835449515, guid: 9ca489570a5a3a147b158d7da326fdcf,
         type: 3}
       propertyPath: m_LocalPosition.x
